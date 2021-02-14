@@ -1,0 +1,27 @@
+#title {
+  background-color: #ff4c68;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.button-svg {
+  position: relative;
+  padding-left: 30px;
+}
+.button-svg svg {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: white;
+}
+.button-svg2 svg {
+  fill: #fff;
+  stroke: transparent;
+}

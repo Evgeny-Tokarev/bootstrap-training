@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
     <title>Bootstrap training</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
@@ -10,80 +9,180 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-<<<<<<< HEAD
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-      <div class="container-sm">
-        <a class="navbar-brand" href="#">Tindog </a>
-=======
-    <nav class="navbar navbar-expand-lg navbar-light bg- Secondary">
+    <section id="title">
+      <!-- Nav Bar -->
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Tindog</a>
->>>>>>> 7765284205da650236a38ddc86dcd88d332626e1
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">Tindog</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Meet new and interesting dogs nearby.</h1>
+            <button class="button-svg btn btn-dark btn-lg" type="button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                id="Capa_1"
+                x="0px"
+                y="0px"
+                width="24"
+                height="24"
+                viewBox="0 0 512 512"
+                style="enable-background: new 0 0 512 512"
+                xml:space="preserve"
+                width="512"
+                height="512"
               >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
+                <g>
+                  <path
+                    d="M185.255,512c-76.201-0.439-139.233-155.991-139.233-235.21c0-129.404,97.075-157.734,134.487-157.734   c16.86,0,34.863,6.621,50.742,12.48c11.104,4.087,22.588,8.306,28.975,8.306c3.823,0,12.832-3.589,20.786-6.738   c16.963-6.753,38.071-15.146,62.651-15.146c0.044,0,0.103,0,0.146,0c18.354,0,74.004,4.028,107.461,54.272l7.837,11.777   l-11.279,8.511c-16.113,12.158-45.513,34.336-45.513,78.267c0,52.031,33.296,72.041,49.292,81.665   c7.061,4.248,14.37,8.628,14.37,18.208c0,6.255-49.922,140.566-122.417,140.566c-17.739,0-30.278-5.332-41.338-10.034   c-11.191-4.761-20.845-8.862-36.797-8.862c-8.086,0-18.311,3.823-29.136,7.881C221.496,505.73,204.752,512,185.753,512H185.255z"
+                  />
+                  <path
+                    d="M351.343,0c1.888,68.076-46.797,115.304-95.425,112.342C247.905,58.015,304.54,0,351.343,0z"
+                  />
+                </g></svg
+              >Download
             </button>
-          </form>
+            <button
+              class="button-svg button-svg2 btn btn-outline-light btn-lg"
+              type="button"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 512 512"
+                role="img"
+              >
+                <path
+                  d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"
+                /></svg
+              >Download
+            </button>
+          </div>
+
+          <div class="col-lg-6">
+            <img src="images/iphone6.png" alt="iphone-mockup" />
+          </div>
         </div>
       </div>
-    </nav>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <h3>Easy to use.</h3>
+      <p>So easy to use, even your dog could do it.</p>
+
+      <h3>Elite Clientele</h3>
+      <p>We have all the dogs, the greatest dogs.</p>
+
+      <h3>Guaranteed to work.</h3>
+      <p>Find the love of your dog's life or your money back.</p>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <h2>
+        I no longer have to sniff other dogs for love. I've found the hottest
+        Corgi on TinDog. Woof.
+      </h2>
+      <img src="images/dog-img.jpg" alt="dog-profile" />
+      <em>Pebbles, New York</em>
+
+      <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em> -->
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img src="images/techcrunch.png" alt="tc-logo" />
+      <img src="images/tnw.png" alt="tnw-logo" />
+      <img src="images/bizinsider.png" alt="biz-insider-logo" />
+      <img src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <h2>A Plan for Every Dog's Needs</h2>
+      <p>Simple and affordable price plans for your and your dog.</p>
+
+      <h3>Chihuahua</h3>
+      <h2>Free</h2>
+      <p>5 Matches Per Day</p>
+      <p>10 Messages Per Day</p>
+      <p>Unlimited App Usage</p>
+      <button type="button">Sign Up</button>
+
+      <h3>Labrador</h3>
+      <h2>$49 / mo</h2>
+      <p>Unlimited Matches</p>
+      <p>Unlimited Messages</p>
+      <p>Unlimited App Usage</p>
+      <button type="button">Sign Up</button>
+
+      <h3>Mastiff</h3>
+      <h2>$99 / mo</h2>
+      <p>Pirority Listing</p>
+      <p>Unlimited Matches</p>
+      <p>Unlimited Messages</p>
+      <p>Unlimited App Usage</p>
+      <button type="button">Sign Up</button>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <h3>Find the True Love of Your Dog's Life Today.</h3>
+      <button type="button">Download</button>
+      <button type="button">Download</button>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <p>© Copyright 2018 TinDog</p>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"

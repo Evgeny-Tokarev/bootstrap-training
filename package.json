@@ -23,5 +23,8 @@
     "not IE 11",
     "maintained node versions"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "js": "^0.1.0"
+  }
 }

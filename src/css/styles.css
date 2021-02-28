@@ -127,3 +127,27 @@ h3 {
 #pricing .row {
   margin-top: 6%;
 }
+
+/* Call to Action1 */
+
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+#cta h3 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 2rem;
+}
+
+/* footer */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+.footer-icon {
+  margin: 20px 10px;
+}
